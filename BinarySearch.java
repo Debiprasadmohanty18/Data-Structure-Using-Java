@@ -43,11 +43,11 @@ public class BinarySearch {
             }
             else if(arr[mid]<target)
             {
-                right = mid + 1;
+                right = mid - 1;
             }
             else if(arr[mid]>target)
             {
-                left = mid - 1;
+                left = mid + 1;
             }
         }
         if(i == n)
